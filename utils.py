@@ -158,7 +158,7 @@ def save_model(model, optimizer, save_dir, architecture, train_data):
                   'idx_to_class': model.class_to_idx
                  }
 
-    torch.save(checkpoint, save_dir + 'checkpoint.pth')
+    torch.save(checkpoint, save_dir + '/checkpoint.pth')
     print("The model has been saved.")
 
 # Validate the accuracy of your trained model using the previously unused test data

@@ -29,7 +29,7 @@ def get_input_args():
                         type=float,
                         action='store',
                         dest='learning_rate',
-                        default=0.005,
+                        default=0.003,
                         help='float to indicate the learning rate'
                        )
 
@@ -45,7 +45,7 @@ def get_input_args():
                         type=int,
                         action='store',
                         dest='epochs',
-                        default=20,
+                        default=10,
                         help='integer to set the number of epochs for the data to train'
                        )
 

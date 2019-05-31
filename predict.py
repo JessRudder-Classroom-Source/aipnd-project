@@ -8,7 +8,7 @@ import utils
 
 # Main program function defined below
 def main():
-    print("The predictions have begun..."
+    print("The predictions have begun...")
 
     in_arg = get_input_args()
     
