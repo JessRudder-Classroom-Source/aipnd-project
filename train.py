@@ -1,15 +1,3 @@
-import json
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-import torch
-import torch.nn.functional as F
-from torch import nn
-from torch import optim
-from torchvision import datasets, transforms, models
-from workspace_utils import active_session
-from PIL import Image
-
 # Imports functions created for this program
 from input_args_train import get_input_args
 import utils
